@@ -1,13 +1,12 @@
 # Análise de Algoritmos de Ordenação
 
-Este repositório contém implementações de diversos algoritmos de ordenação e scripts para analisar e visualizar o desempenho de cada um.
-Os códigos dos algaritmos de ordenação foram usados a partir do repositório do professor Mateus Goldbarg contido neste link: https://github.com/mateusArnaudGoldbarg/ED/blob/main/ed.cpp
+Este repositório contém código de alguns algoritmos de ordenação, bem como scripts que empregamos para avaliar seu desempenho e visualizações. Os códigos do algoritmo de ordenação foram retirados do repositório do professor Mateus Goldbarg acessado através do seguinte link: https://github.com/mateusArnaudGoldbarg/ED/blob/main/ed.cpp.
 
 ## Algoritmos Implementados
 
 ### Bubble Sort
 
-O Bubble Sort é um algoritmo simples de ordenação que percorre o vetor diversas vezes, comparando elementos adjacentes e trocando-os se estiverem na ordem errada.
+O Bubble Sort é um algoritmo simples de ordenação que percorre o vetor diversas vezes, comparando os elementos e trocando se estiver na ordem errada.
 
 ```cpp
 void bubbleSort(vector<int>& v) {
@@ -24,8 +23,7 @@ void bubbleSort(vector<int>& v) {
 
 ### Selection Sort
 
-O Selection Sort divide o vetor em duas partes: uma ordenada e outra não ordenada. Ele encontra o menor elemento da parte não ordenada e o coloca na parte ordenada.
-
+O Selection Sort divide o vetor em duas partes: uma ordenada e outra não ordenada.Ele encontra o menor elemento da parte não ordenada e o coloca na parte ordenada. 
 ```cpp
 void selectionSort(vector<int>& v) {
     int n = v.size();
@@ -43,8 +41,7 @@ void selectionSort(vector<int>& v) {
 
 ### Insertion Sort
 
-O Insertion Sort constrói uma lista ordenada um elemento de cada vez, movendo elementos não ordenados para sua posição correta.
-
+O Insertion Sort cria uma lista ordenada de elementos, uma de cada vez, e move os elementos não ordenados para a posição correta.
 ```cpp
 void insertionSort(vector<int>& v) {
     int n = v.size();
@@ -61,8 +58,7 @@ void insertionSort(vector<int>& v) {
 ```
 ### Shell Sort
 
-O Shell Sort é uma extensão do Insertion Sort que compara elementos distantes antes de realizar trocas, melhorando o desempenho do algoritmo.
-
+O Shell Sort é uma extensão da ordenação por inserção que compara elementos distantes antes da troca, melhorando assim o desempenho do algoritmo.
 ```cpp
 void shellSort(vector<int>& v) {
     int n = v.size();
@@ -80,7 +76,7 @@ void shellSort(vector<int>& v) {
 ```
  ### Quick Sort
  
-O Quick Sort utiliza a estratégia de divisão e conquista para ordenar elementos. Ele escolhe um elemento como pivô e divide o vetor em duas partes, ordenando-as separadamente.
+O Quick Sort usa uma estratégia de dividir e conquistar para classificar elementos. Ele seleciona um elemento como pivô e divide o vetor em duas partes, classificando-as separadamente.
 
 ```cpp
 int partition(vector<int>& v, int low, int high) {
@@ -107,7 +103,7 @@ void quickSort(vector<int>& v, int low, int high) {
 
 ### Merge Sort
 
-O Merge Sort também utiliza a estratégia de divisão e conquista, mas de uma forma diferente. Ele divide o vetor ao meio e ordena cada metade recursivamente, depois mescla as duas metades ordenadas.
+O Merge Sort também usa uma estratégia de divisão para conquistar, mas de uma maneira diferente. Ele divide o vetor ao meio e classifica recursivamente cada metade, depois mescla as metades básicas.
 
 ```cpp
 void merge(vector<int>& v, int l, int m, int r) {
