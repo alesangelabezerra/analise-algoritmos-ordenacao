@@ -201,12 +201,13 @@ algorithms.cpp: Implementações dos algoritmos de ordenação.
 - **comparison_plot.png**: Gráfico comparativo de desempenho para todos os algoritmos.
 - **execution_times.txt**: Este arquivo contém os tempos de execução medidos para cada algoritmo de ordenação para diferentes tamanhos de vetor.
 - Cada linha representa um teste de execução com o seguinte formato:
+  
   <algoritmo> <tamanho_do_vetor> <tempo_de_execução_em_microssegundos>
 ```mathematica
   O tempo de execução é medido em microssegundos para fornecer uma precisão adequada na comparação dos algoritmos. Os algoritmos incluídos são: Bubble Sort, Selection Sort, Insertion Sort, Shell Sort, Quick Sort e Merge Sort.
 ```
 
 ## Autores
-ADAIANE DA SILVA BRITO
-ALESANGELA BEZERRA DA FONSECA
+- ADAIANE DA SILVA BRITO
+- ALESANGELA BEZERRA DA FONSECA
 
