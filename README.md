@@ -200,7 +200,7 @@ algorithms.cpp: Implementações dos algoritmos de ordenação.
   
   <algoritmo> <tamanho_do_vetor> <tempo_de_execução_em_microssegundos>
 ```mathematica
-  O tempo de execução é medido em microssegundos para fornecer uma precisão adequada na comparação dos algoritmos. Os algoritmos incluídos são: Bubble Sort, Selection Sort, Insertion Sort, Shell Sort, Quick Sort e Merge Sort.
+  O tempo de execução é medido em microssegundos para fornecer uma precisão adequada na comparação dos algoritmos.
 ```
 
 ## Autores
