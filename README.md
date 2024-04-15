@@ -1,6 +1,6 @@
 # Análise de Algoritmos de Ordenação
 
-Este repositório contém código de alguns algoritmos de ordenação, bem como scripts que empregamos para avaliar seu desempenho e visualizações. Os códigos do algoritmo de ordenação foram retirados do repositório do professor Mateus Goldbarg acessado através do seguinte link: https://github.com/mateusArnaudGoldbarg/ED/blob/main/ed.cpp.
+Este repositório contém código de alguns algoritmos de ordenação, bem como scripts que empregamos para avaliar seu desempenho e visualizações. Os códigos do algoritmo de ordenação que foram utilizados do repositório do professor Mateus Goldbarg acessado através do seguinte link: https://github.com/mateusArnaudGoldbarg/ED/blob/main/ed.cpp.
 
 ## Algoritmos Implementados
 
